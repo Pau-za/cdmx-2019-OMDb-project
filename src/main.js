@@ -1,6 +1,4 @@
 
-
-
 let omdbData = {};
 fetch('https://sci-films.firebaseio.com/movies.json').then(
     response => {
@@ -10,32 +8,22 @@ fetch('https://sci-films.firebaseio.com/movies.json').then(
     return omdbData
   })
 .catch(error => (error));
-  
+
 //   Función que imprime posters
 const movies = document.getElementById('movies');
 const printMovie = (data) => {
   data.forEach(element => {
+
     let imdbID = element.imdbID;
     let title = element.Title;
     let poster = element.Poster;
     const result = `<div class="box-movie"> <div id="${imdbID}"></div><h3> ${title}</h3> <img src="${poster}"></div>`;
     movies.insertAdjacentHTML('beforeend', result);
   });  
+
 }
 const prueba = document.getElementById('boton-prueba');
 prueba.addEventListener('click', () => {
   printMovie(omdbData);
 })
-
-
-
-
-
-
-
-
-
-
-
-
 
