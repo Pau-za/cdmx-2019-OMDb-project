@@ -48,9 +48,9 @@ Comentarios: Me gustaría que las películas se muestran con su poster, una pequ
 ## Prototipos 
 
 ### Baja fidelidad
-![LFP_1]
-![LFP_2]
-![LFP_3]
+![LFP_1](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/rama-andreaparrilla/src/images/prototipoBaja1.jpg)
+![LFP_2](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/rama-andreaparrilla/src/images/prototipoBaja2.jpg)
+![LFP_3](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/rama-andreaparrilla/src/images/prototipoBaja3.jpg)
 
 ### Alta Fidelidad
 En la siguiente liga se muestran los prototipos de alta fidelidad para desktop haz click [aquí](https://www.figma.com/file/d26nQ35xtkUtyp7PpUxd3HyB/Sci-Film?node-id=0%3A1)
