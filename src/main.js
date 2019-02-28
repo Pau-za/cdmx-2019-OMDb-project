@@ -1,4 +1,4 @@
-//jalamos la data con fetch
+
 let omdbData = {};
 fetch('https://sci-films.firebaseio.com/movies.json').then(
     response => {
@@ -24,3 +24,12 @@ const prueba = document.getElementById('boton-prueba');
 prueba.addEventListener('click', () => {
   printMovie(omdbData);
 })
+
+function getMovies() {
+let search = document.getElementById('search').value;
+  localStorage.setItem('movies-to-search', search);
+
+  window.location.href = "movies.html";
+}
+function printResult(){
+   document.getElementById('movieSelect').innerHTML = localStorage.getItem("movies-to-search")
