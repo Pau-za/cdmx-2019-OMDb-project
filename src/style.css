@@ -45,3 +45,8 @@ h3{
     cursor: pointer;
     background: #FFD700;
 }
+
+#result {
+    color: blanchedalmond;
+    font-size: 30px;
+}
