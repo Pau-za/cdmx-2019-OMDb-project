@@ -35,8 +35,12 @@ display: unset;
   position: relative;
   text-align: center;
   padding: 5%;
-
 }
+
+.hide {
+  display: none;
+}
+
 #boton-prueba{
     background-color:white;
     border: 1px solid black;
