@@ -10,7 +10,7 @@ fetch('https://sci-films.firebaseio.com/movies.json').then(
 
 //   Función que imprime posters
 const catalogue = document.getElementById('catalogue');
-const printInformation = document.getElementById('print-information');
+// const printInformation = document.getElementById('print-information');
 const printMovie = (data) => {
   data.forEach(element => {
     let poster = element.Poster;
@@ -206,7 +206,7 @@ filterOption.addEventListener("change", () => {
 
 //  catalogue.addEventListener('click', () => {
 
-const information = document.getElementsByClassName('col-md-8');
+// const information = document.getElementsByClassName('col-md-8');
 //   // console.log(information);
 //   let movieResult = [];
 //   omdbData.forEach(element => {
