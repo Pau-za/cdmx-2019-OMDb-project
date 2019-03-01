@@ -11,21 +11,25 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-light bg-dark justify-content-between">
-    <a class="navbar-brand">Sci-FiLms</a>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
-      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="boton-prueba">Search</button> -->
-    </form>
-  </nav>
-
-  <section>
-    <button id="boton-prueba">Search</button>
-    <!-- <div id="movies"></div> -->
-
-  </section>
-
+  <nav class="navbar navbar-light bg-light justify-content-between">
+     <a class="navbar-brand">Sci-FiLms</a>
+     <form class="form-inline">
+       <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
+       <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+       <select name="filter-option" id="filter-by-option">
+         <option value="Title">Título</option>
+         <option value="Actors">Actor</option>
+         <option value="Director">Director</option>
+       </select>
+     </form>
+   </nav>
+   <section>
+     <button id="boton-prueba">Prueba</button>
+     <button id="button-filter">Filtrado</button>
+     <header class="title">Sci-Films</header>
+     <p id="result"></p>
+     <div id="movies"></div>
+   </section>
 <section id="movie-of-week">
   <div class="card mb-3" style="opacity: .8; max-width: 280px;">
   <div >
