@@ -6,41 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" href="images/logo-icon.png">
+  <link rel="icon" href="images/logo-icon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
-
-
 </head>
 
 <body>
-
   <nav class="navbar navbar-light bg-dark justify-content-between">
-     <a class="navbar-brand"><img src="images/logo.png" class="d-inline-block align-top" alt="Sci-FiLms"></a>
-     <form class="form-inline">
-       <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
-       <button class="btn btn-light my-2 my-sm-0" type="submit" id="boton-prueba">Search</button>
-     </form>
-   </nav>
-   <section>
-     <p id="result"></p>
-     <div id="movies"></div>
-   </section>
-<section id="movie-of-week">
-  <div class="card mb-3" style="opacity: .8; max-width: 280px;">
-  <div >
-    <div >
-      <img src="images/odisea2001.jpg"  alt="odisea2001">
-    </div>
-    <div class="col-md-6 info">
-      <div class="card-body">
-        <h5 class="card-title">Movie of the week</h5>
-        <p>⭐⭐⭐⭐</p>
-        <p class="card-text">After discovering a mysterious artifact buried beneath the lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer HAL 9000.</p>
-        <a href="https://www.youtube.com/watch?v=Z2UWOeBcsJI" class="btn btn-secondary stretched-link">Triler</a>
+    <a class="navbar-brand"><img src="images/logo.png" class="d-inline-block align-top" alt="Sci-FiLms"></a>
+    <form class="form-inline">
+      <button class="btn btn-light my-2 my-sm-0" type="submit" id="catalogue-button">Show Complete Catalogue</button>
+      <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
+      <select name="filter-option" id="filter-by-option">
+        <option value="search-by">Search By</option>
+        <option value="Title">Título</option>
+        <option value="Actors">Actor</option>
+        <option value="Director">Director</option>
+      </select>
+    </form>
+  </nav>
 
-      </div>
+  <section>
+    <div id="movies" class="hide"></div>
+    <div id="complete-information">
+      <div id="catalogue"></div>
     </div>
+  </section>
+
+  <section>
+    <p id="result"></p>
+    <div id="print-information"></div>
+  </section>
+  <section id="movie-of-week">
+    <div class="card mb-3" style="opacity: .8; max-width: 280px;">
+      <div>
+        <div>
+          <img src="images/odisea2001.jpg" alt="odisea2001">
+        </div>
+        <div class="col-md-6 info">
+          <div class="card-body">
+            <h5 class="card-title">Movie of the week</h5>
+            <p>⭐⭐⭐⭐</p>
+            <p class="card-text">After discovering a mysterious artifact buried beneath the lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer HAL 9000.</p>
+            <a href="https://www.youtube.com/watch?v=Z2UWOeBcsJI" class="btn btn-secondary stretched-link">Triler</a>
+          </div>
+        </div>
   </section>
 
   <div id="carouselMovies" class="carousel slide" data-ride="carousel">
@@ -51,24 +61,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/predator.jpg" alt="predator">
+        <img src="images/alphaville.jpg" alt="predator">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Predator</h2>
-          <p>Year: 1987</br>
-
-          Rated: R</br>
-          Released: 12 Jun 1987</br>
-          Runtime: 107 min</br>
-          Genre: Action, Adventure, Sci-Fi, Thriller</br>
-          Director: John McTiernan</br>
-          Writer: Jim Thomas, John Thomas</br>
-          Actors: Arnold Schwarzenegger, Carl Weathers, Elpidia Carrillo, Bill Duke</br>
-          Plot: A team of commandos on a mission in a Central American</br>
-          jungle find themselves hunted by an extraterrestrial warrior.
-          Language: English, Spanish, Russian</br>
-          Country: USA, Mexico</br>
-          Awards: Nominated for 1 Oscar. Another 3 wins & 4 nominations.</p>
-          <a href="https://www.youtube.com/watch?v=Y1txEAywdiw" class="btn btn-secondary stretched-link">Triler</a>
+          <h2>Alphaville</h2>
+          <p>Year: 1965</br>
+          Released: 05 May 1965</br>
+          Runtime: 99 min</br>
+          Genre: Drama, Mystery, Sci-Fi, Thriller</br>
+          Director: Jean-Luc Godard</br>
+          Writer: Jean-Luc Godard</br>
+          Actors: Eddie Constantine, Anna Karina, Akim Tamiroff</br>
+          Plot: A U.S. secret agent is sent to the distant space city of Alphaville</br>
+          where he must find a missing person and free the city from its tyrannical ruler.</br>
+          Language: French, English</br>
+          Country: France, Italy</p>
+          <a href="https://www.youtube.com/watch?v=UQCic5WTx-o" class="btn btn-secondary stretched-link">Triler</a>
 
         </div>
       </div>
@@ -88,7 +95,7 @@
             love with a working class prophet who predicts the coming of a savior to mediate their differences.</br>
             Language: German</br>
             Country: Germany</p>
-            <a href="https://www.youtube.com/watch?v=GrFBId1b8U0" class="btn btn-secondary stretched-link">Triler</a>
+          <a href="https://www.youtube.com/watch?v=GrFBId1b8U0" class="btn btn-secondary stretched-link">Triler</a>
         </div>
       </div>
       <div class="carousel-item">
@@ -97,19 +104,17 @@
           <h2>eXistenZ</h2>
           <p>Year: 1999</br>
             Rated: R</br>
-
-          Released: 23 Apr 1999</br>
-          Runtime: 97 min</br>
-          Genre: Horror, Sci-Fi, Thriller</br>
-          Director / Writer: David Cronenberg</br>
-          Actors: Jennifer Jason Leigh, Jude Law, Ian Holm, Willem Dafoe</br>
-          Plot: A game designer on the run from assassins must</br>
-          play her latest virtual reality creation with</br>
-          a marketing trainee to determine if the game has been damaged.</br>
-          Language: English</br>
-          Country: Canada, UK, France</p>
+            Released: 23 Apr 1999</br>
+            Runtime: 97 min</br>
+            Genre: Horror, Sci-Fi, Thriller</br>
+            Director / Writer: David Cronenberg</br>
+            Actors: Jennifer Jason Leigh, Jude Law, Ian Holm, Willem Dafoe</br>
+            Plot: A game designer on the run from assassins must</br>
+            play her latest virtual reality creation with</br>
+            a marketing trainee to determine if the game has been damaged.</br>
+            Language: English</br>
+            Country: Canada, UK, France</p>
           <a href="https://www.youtube.com/watch?v=HAdbdUt_h9M" class="btn btn-secondary stretched-link">Triler</a>
-
         </div>
       </div>
 
@@ -126,12 +131,9 @@
 
 
   <script src="./main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

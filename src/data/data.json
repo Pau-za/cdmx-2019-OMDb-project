@@ -1,6 +1,1002 @@
 {
   "movies": [
     {
+    "Title": "Solaris",
+    "Year": "1971",
+    "Rated": "PG",
+    "Released": "26 Sep 1972",
+    "Runtime": "167 min",
+    "Genre": "Drama, Mystery, Sci-Fi",
+    "Director": "Andrei Tarkovsky",
+    "Writer": "Stanislaw Lem (novel), Fridrikh Gorenshteyn (screenplay), Andrei Tarkovsky (screenplay)",
+    "Actors": "Natalya Bondarchuk, Donatas Banionis, Jüri Järvet, Vladislav Dvorzhetskiy",
+    "Plot": "A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.",
+    "Language": "Russian, German",
+    "Country": "Soviet Union",
+    "Awards": "2 wins & 4 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmY4Yjc0OWQtZDRhMy00ODc2LWI2NGYtMWFlODYyN2VlNDQyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "96%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "90/100"
+    }],
+    "Metascore": "90",
+    "imdbRating": "8.1",
+    "imdbVotes": "68,131",
+    "imdbID": "tt0069293",
+    "Type": "movie",
+    "DVD": "26 Nov 2002",
+    "BoxOffice": "N/A",
+    "Production": "Kino International",
+    "Website": "N/A",
+    "Response": "True"
+  }, {
+    "Title": "A Trip to the Moon",
+    "Year": "1902",
+    "Rated": "TV-G",
+    "Released": "04 Oct 1902",
+    "Runtime": "13 min",
+    "Genre": "Short, Action, Adventure, Comedy, Fantasy, Sci-Fi",
+    "Director": "Georges Méliès",
+    "Writer": "N/A",
+    "Actors": "Victor André, Bleuette Bernon, Brunnet, Jehanne d'Alcy",
+    "Plot": "A group of astronomers go on an expedition to the Moon.",
+    "Language": "French",
+    "Country": "France",
+    "Awards": "1 win.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWExODUxMTYtM2M0Yy00YzU0LTliNDMtN2EyNGFjNzZhOTE3XkEyXkFqcGdeQXVyMjcxNjI4NTk@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.2/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "100%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "8.2",
+    "imdbVotes": "37,912",
+    "imdbID": "tt0000417",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "The Astronomer's Dream",
+    "Year": "2009",
+    "Rated": "N/A",
+    "Released": "01 Mar 2009",
+    "Runtime": "11 min",
+    "Genre": "Animation, Short, Adventure",
+    "Director": "Malcolm Sutherland",
+    "Writer": "N/A",
+    "Actors": "Lucas Fehr",
+    "Plot": "When a hungry Astronomer falls asleep while working on a problem, he discovers a solution not in outer space but in the surreal food-chain of his subconscious mind.",
+    "Language": "N/A",
+    "Country": "Canada",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "6.4/10"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "6.4",
+    "imdbVotes": "51",
+    "imdbID": "tt1478438",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  }, {
+    "Title": "Woman in the Moon",
+    "Year": "1929",
+    "Rated": "Not Rated",
+    "Released": "06 Feb 1931",
+    "Runtime": "95 min",
+    "Genre": "Comedy, Drama, Romance, Sci-Fi",
+    "Director": "Fritz Lang",
+    "Writer": "Thea von Harbou (novel), Fritz Lang (screenplay), Hermann Oberth (scientific material), Thea von Harbou (manuscript)",
+    "Actors": "Klaus Pohl, Willy Fritsch, Gustav von Wangenheim, Gerda Maurus",
+    "Plot": "A tenacious scientist blasts off for the moon in hopes of riches that may be found there.",
+    "Language": "German",
+    "Country": "Germany",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4NzM2NDA0MV5BMl5BanBnXkFtZTgwMDgzMDM1MjE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.4/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "71%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.4",
+    "imdbVotes": "2,461",
+    "imdbID": "tt0019901",
+    "Type": "movie",
+    "DVD": "09 Nov 2004",
+    "BoxOffice": "N/A",
+    "Production": "Deutsche Universum Film AG",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "The Incredible Shrinking Man",
+    "Year": "1957",
+    "Rated": "Not Rated",
+    "Released": "17 May 1957",
+    "Runtime": "81 min",
+    "Genre": "Horror, Sci-Fi",
+    "Director": "Jack Arnold",
+    "Writer": "Richard Matheson (screenplay), Richard Matheson (novel)",
+    "Actors": "Grant Williams, Randy Stuart, April Kent, Paul Langton",
+    "Plot": "When Scott Carey begins to shrink because of exposure to a combination of radiation and insecticide, medical science is powerless to help him.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "2 wins.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTYxNTI0MjA5OV5BMl5BanBnXkFtZTgwMDA1OTc5MTE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "91%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "14,042",
+    "imdbID": "tt0050539",
+    "Type": "movie",
+    "DVD": "13 May 2008",
+    "BoxOffice": "N/A",
+    "Production": "MCA Universal Home Video",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "The Face of Another",
+    "Year": "1966",
+    "Rated": "NOT RATED",
+    "Released": "09 Jun 1967",
+    "Runtime": "124 min",
+    "Genre": "Drama, Sci-Fi",
+    "Director": "Hiroshi Teshigahara",
+    "Writer": "Kôbô Abe (screenplay), Kôbô Abe (novel)",
+    "Actors": "Tatsuya Nakadai, Mikijirô Hira, Kyôko Kishida, Miki Irie",
+    "Plot": "A businessman with a disfigured face obtains a lifelike mask from his doctor, but the mask starts altering his personality.",
+    "Language": "Japanese",
+    "Country": "Japan",
+    "Awards": "2 wins.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjNmMWM4MjMtNGQ1YS00MWRjLTg4ZDktZjRlYjM5N2IwMTU5XkEyXkFqcGdeQXVyNTc1OTc3ODE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.0/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "100%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "5,781",
+    "imdbID": "tt0061065",
+    "Type": "movie",
+    "DVD": "10 Jul 2007",
+    "BoxOffice": "N/A",
+    "Production": "Toho Company Ltd.",
+    "Website": "N/A",
+    "Response": "True"
+  }, {
+    "Title": "Seconds",
+    "Year": "1966",
+    "Rated": "R",
+    "Released": "14 Nov 1966",
+    "Runtime": "106 min",
+    "Genre": "Sci-Fi, Thriller",
+    "Director": "John Frankenheimer",
+    "Writer": "Lewis John Carlino (screenplay), David Ely (based on the novel by)",
+    "Actors": "Frank Campanella, John Randolph, Frances Reid, Barbara Werle",
+    "Plot": "An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity - one that comes with its own price.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "Nominated for 1 Oscar. Another 1 win & 2 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmYwMmFjMDYtYTEyYS00NzUwLWIyZTMtNjFjZmVmZjhkY2M1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "90%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "13,842",
+    "imdbID": "tt0060955",
+    "Type": "movie",
+    "DVD": "08 Jan 2002",
+    "BoxOffice": "N/A",
+    "Production": "Paramount Pictures",
+    "Website": "http://www.criterion.com/",
+    "Response": "True"
+  },
+  {
+    "Title": "Fahrenheit 451",
+    "Year": "1966",
+    "Rated": "Not Rated",
+    "Released": "14 Nov 1966",
+    "Runtime": "112 min",
+    "Genre": "Drama, Sci-Fi",
+    "Director": "François Truffaut",
+    "Writer": "François Truffaut (screenplay), Jean-Louis Richard (screenplay), Ray Bradbury (novel)",
+    "Actors": "Julie Christie, Oskar Werner, Cyril Cusack, Anton Diffring",
+    "Plot": "In an oppressive future, a fireman whose duty is to destroy all books begins to question his task.",
+    "Language": "English",
+    "Country": "UK",
+    "Awards": "Nominated for 1 BAFTA Film Award. Another 2 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjI3MzI3MjQ2OF5BMl5BanBnXkFtZTgwMTI4ODYxMTE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.3/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "80%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.3",
+    "imdbVotes": "37,971",
+    "imdbID": "tt0060390",
+    "Type": "movie",
+    "DVD": "10 Oct 2000",
+    "BoxOffice": "N/A",
+    "Production": "Universal Pictures",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Je t'aime, je t'aime",
+    "Year": "1968",
+    "Rated": "N/A",
+    "Released": "24 Apr 1968",
+    "Runtime": "91 min",
+    "Genre": "Drama, Sci-Fi",
+    "Director": "Alain Resnais",
+    "Writer": "Jacques Sternberg",
+    "Actors": "Claude Rich, Olga Georges-Picot, Anouk Ferjac, Alain MacMoy",
+    "Plot": "After attempting suicide, Claude is recruited for a time travel experiment, but, when the machine goes haywire, he may be trapped hurtling through his memories.",
+    "Language": "French, Dutch, English",
+    "Country": "France",
+    "Awards": "2 wins.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODkzNjE3MF5BMl5BanBnXkFtZTgwMDA1NDEyMTE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.3/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "86%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.3",
+    "imdbVotes": "2,028",
+    "imdbID": "tt0063152",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$67,503",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Planet of the Apes",
+    "Year": "2001",
+    "Rated": "PG-13",
+    "Released": "27 Jul 2001",
+    "Runtime": "119 min",
+    "Genre": "Action, Adventure, Sci-Fi, Thriller",
+    "Director": "Tim Burton",
+    "Writer": "Pierre Boulle (novel), William Broyles Jr. (screenplay), Lawrence Konner (screenplay), Mark Rosenthal (screenplay)",
+    "Actors": "Mark Wahlberg, Tim Roth, Helena Bonham Carter, Michael Clarke Duncan",
+    "Plot": "In 2029, an Air Force astronaut crash-lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "Nominated for 2 BAFTA Film Awards. Another 10 wins & 27 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BY2RlMDhlY2MtMjQ1Zi00NzI5LTgxOTgtZjliNWMzYTY3NWZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "5.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "45%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "50/100"
+    }],
+    "Metascore": "50",
+    "imdbRating": "5.7",
+    "imdbVotes": "199,489",
+    "imdbID": "tt0133152",
+    "Type": "movie",
+    "DVD": "20 Nov 2001",
+    "BoxOffice": "$178,094,583",
+    "Production": "20th Century Fox",
+    "Website": "http://www.planetoftheapes.com",
+    "Response": "True"
+  },
+  {
+    "Title": "Fantastic Planet",
+    "Year": "1973",
+    "Rated": "PG",
+    "Released": "01 Dec 1973",
+    "Runtime": "72 min",
+    "Genre": "Animation, Sci-Fi",
+    "Director": "René Laloux",
+    "Writer": "Stefan Wul (novel), Roland Topor (adaptation), René Laloux (adaptation)",
+    "Actors": "Jennifer Drake, Eric Baugin, Jean Topart, Jean Valmont",
+    "Plot": "On a faraway planet where blue giants rule, oppressed humanoids rebel against their machine-like leaders.",
+    "Language": "French, Czech",
+    "Country": "France, Czechoslovakia",
+    "Awards": "1 win & 2 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDI0MWVjMjUtNWE1MS00MmQzLWI3ZGItNGQ0NjkyODhhNWRjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.8/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "88%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "7.8",
+    "imdbVotes": "19,656",
+    "imdbID": "tt0070544",
+    "Type": "movie",
+    "DVD": "23 Oct 2007",
+    "BoxOffice": "N/A",
+    "Production": "New World Pictures",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Arrival",
+    "Year": "2016",
+    "Rated": "PG-13",
+    "Released": "11 Nov 2016",
+    "Runtime": "116 min",
+    "Genre": "Drama, Mystery, Sci-Fi, Thriller",
+    "Director": "Denis Villeneuve",
+    "Writer": "Eric Heisserer (screenplay by), Ted Chiang (based on the story \"Story of Your Life\" written by)",
+    "Actors": "Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg",
+    "Plot": "A linguist is recruited by the military to communicate with alien lifeforms after twelve mysterious spacecrafts land around the world.",
+    "Language": "English, Russian, Mandarin",
+    "Country": "USA",
+    "Awards": "Won 1 Oscar. Another 64 wins & 251 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.9/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "94%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "81/100"
+    }],
+    "Metascore": "81",
+    "imdbRating": "7.9",
+    "imdbVotes": "496,569",
+    "imdbID": "tt2543164",
+    "Type": "movie",
+    "DVD": "14 Feb 2017",
+    "BoxOffice": "$100,501,349",
+    "Production": "21 Laps Entertainment",
+    "Website": "http://www.arrivalmovie.com/",
+    "Response": "True"
+  },
+  {
+    "Title": "Golem",
+    "Year": "1980",
+    "Rated": "N/A",
+    "Released": "18 Mar 1980",
+    "Runtime": "92 min",
+    "Genre": "Sci-Fi",
+    "Director": "Piotr Szulkin",
+    "Writer": "Piotr Szulkin (screenplay), Tadeusz Sobolewski (screenplay), Gustav Meyrink (novel)",
+    "Actors": "Marek Walczewski, Krystyna Janda, Joanna Zólkowska, Anna Jaraczówna",
+    "Plot": "The film is set in a terrorizing world of the future, where technology commands the movements of individuals, supervised by the doctors, carrying out a program to improve the human race. ...",
+    "Language": "Polish",
+    "Country": "Poland",
+    "Awards": "1 win.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDI4MGVjY2YtNDVjMy00ODZkLWFkMzgtYjhiY2RjNWVjODkzXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "6.8/10"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "6.8",
+    "imdbVotes": "417",
+    "imdbID": "tt0080806",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "La Jetée",
+    "Year": "1962",
+    "Rated": "Not Rated",
+    "Released": "16 Feb 1962",
+    "Runtime": "28 min",
+    "Genre": "Short, Drama, Romance, Sci-Fi",
+    "Director": "Chris Marker",
+    "Writer": "N/A",
+    "Actors": "Jean Négroni, Hélène Chatelain, Davos Hanich, Jacques Ledoux",
+    "Plot": "The story of a man forced to explore his memories in the wake of World War III's devastation, told through still images.",
+    "Language": "French, German",
+    "Country": "France",
+    "Awards": "2 wins.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTZhMTdmYTAtODJjZS00YmQzLWE5YmEtMTFmNGJlYWVhZjc0XkEyXkFqcGdeQXVyNTc1NDM0NDU@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.3/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "92%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "8.3",
+    "imdbVotes": "25,815",
+    "imdbID": "tt0056119",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "Criterion Collection",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Brazil",
+    "Year": "1985",
+    "Rated": "R",
+    "Released": "18 Dec 1985",
+    "Runtime": "132 min",
+    "Genre": "Drama, Sci-Fi",
+    "Director": "Terry Gilliam",
+    "Writer": "Terry Gilliam (screenplay by), Tom Stoppard (screenplay by), Charles McKeown (screenplay by)",
+    "Actors": "Jonathan Pryce, Robert De Niro, Katherine Helmond, Ian Holm",
+    "Plot": "A bureaucrat, in a retro-future world, tries to correct an administrative error and becomes an enemy of the state.",
+    "Language": "English",
+    "Country": "UK, USA",
+    "Awards": "Nominated for 2 Oscars. Another 8 wins & 3 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjY5YWZlMzctMzdhNy00MTNiLWI1MjYtZDFhZTg1NmNmOTMxL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.0/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "98%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "88/100"
+    }],
+    "Metascore": "88",
+    "imdbRating": "8.0",
+    "imdbVotes": "173,385",
+    "imdbID": "tt0088846",
+    "Type": "movie",
+    "DVD": "31 Mar 1998",
+    "BoxOffice": "N/A",
+    "Production": "Universal Pictures",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "A Scanner Darkly",
+    "Year": "2006",
+    "Rated": "R",
+    "Released": "28 Jul 2006",
+    "Runtime": "100 min",
+    "Genre": "Animation, Crime, Drama, Mystery, Sci-Fi, Thriller",
+    "Director": "Richard Linklater",
+    "Writer": "Philip K. Dick (novel), Richard Linklater (screenplay)",
+    "Actors": "Rory Cochrane, Robert Downey Jr., Mitch Baker, Keanu Reeves",
+    "Plot": "An undercover cop in a not-too-distant future becomes involved with a dangerous new drug and begins to lose his own identity as a result.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "4 wins & 19 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTc2ZGI2MzEtODlkNC00MGQ4LTlkYjQtMDU0YTg1YTI0NDI1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.1/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "67%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "73/100"
+    }],
+    "Metascore": "73",
+    "imdbRating": "7.1",
+    "imdbVotes": "99,035",
+    "imdbID": "tt0405296",
+    "Type": "movie",
+    "DVD": "19 Dec 2006",
+    "BoxOffice": "$5,281,537",
+    "Production": "Warner Independent Pictures",
+    "Website": "http://wip.warnerbros.com/ascannerdarkly/",
+    "Response": "True"
+  },
+  {
+    "Title": "The Man Who Fell to Earth",
+    "Year": "1976",
+    "Rated": "R",
+    "Released": "08 Apr 1976",
+    "Runtime": "139 min",
+    "Genre": "Sci-Fi, Drama",
+    "Director": "Nicolas Roeg",
+    "Writer": "Paul Mayersberg (screenplay), Walter Tevis (from the novel by)",
+    "Actors": "David Bowie, Rip Torn, Candy Clark, Buck Henry",
+    "Plot": "An alien must pose as a human to save his dying planet, but a woman and greed of other men create complications.",
+    "Language": "English",
+    "Country": "UK",
+    "Awards": "1 win & 3 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTVhM2JhZDAtYWMwMS00NjE5LWI5ZTEtNDQxZmIxMzIxYzVlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "6.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "83%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "81/100"
+    }],
+    "Metascore": "81",
+    "imdbRating": "6.7",
+    "imdbVotes": "21,112",
+    "imdbID": "tt0074851",
+    "Type": "movie",
+    "DVD": "05 Jul 2000",
+    "BoxOffice": "N/A",
+    "Production": "Rialto Pictures",
+    "Website": "http://www.rialtopictures.com/manwhofell.html",
+    "Response": "True"
+  },
+  {
+    "Title": "Donnie Darko",
+    "Year": "2001",
+    "Rated": "R",
+    "Released": "26 Oct 2001",
+    "Runtime": "113 min",
+    "Genre": "Drama, Sci-Fi, Thriller",
+    "Director": "Richard Kelly",
+    "Writer": "Richard Kelly",
+    "Actors": "Jake Gyllenhaal, Holmes Osborne, Maggie Gyllenhaal, Daveigh Chase",
+    "Plot": "A troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes, after he narrowly escapes a bizarre accident.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "11 wins & 15 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "87%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "88/100"
+    }],
+    "Metascore": "88",
+    "imdbRating": "8.1",
+    "imdbVotes": "686,680",
+    "imdbID": "tt0246578",
+    "Type": "movie",
+    "DVD": "19 Mar 2002",
+    "BoxOffice": "N/A",
+    "Production": "Newmarket Film Group",
+    "Website": "http://www.donniedarko.com",
+    "Response": "True"
+  },
+
+  {
+    "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Year": "1964",
+    "Rated": "PG",
+    "Released": "29 Jan 1964",
+    "Runtime": "95 min",
+    "Genre": "Comedy",
+    "Director": "Stanley Kubrick",
+    "Writer": "Stanley Kubrick (screenplay), Terry Southern (screenplay), Peter George (screenplay), Peter George (based on the book: \"Red Alert\" by)",
+    "Actors": "Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",
+    "Plot": "An insane general triggers a path to nuclear holocaust that a War Room full of politicians and generals frantically tries to stop.",
+    "Language": "English, Russian",
+    "Country": "USA, UK",
+    "Awards": "Nominated for 4 Oscars. Another 13 wins & 7 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.4/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "99%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "96/100"
+    }],
+    "Metascore": "96",
+    "imdbRating": "8.4",
+    "imdbVotes": "407,153",
+    "imdbID": "tt0057012",
+    "Type": "movie",
+    "DVD": "02 Nov 2004",
+    "BoxOffice": "N/A",
+    "Production": "Sony Pictures",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "District 9",
+    "Year": "2009",
+    "Rated": "R",
+    "Released": "14 Aug 2009",
+    "Runtime": "112 min",
+    "Genre": "Action, Sci-Fi, Thriller",
+    "Director": "Neill Blomkamp",
+    "Writer": "Neill Blomkamp, Terri Tatchell",
+    "Actors": "Sharlto Copley, Jason Cope, Nathalie Boltt, Sylvaine Strike",
+    "Plot": "An extraterrestrial race forced to live in slum-like conditions on Earth suddenly finds a kindred spirit in a government agent who is exposed to their biotechnology.",
+    "Language": "English, Nyanja, Afrikaans, Zulu, Xhosa, Southern Sotho",
+    "Country": "South Africa, USA, New Zealand, Canada",
+    "Awards": "Nominated for 4 Oscars. Another 30 wins & 110 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmQ5MzFjYWMtMTMwNC00ZGU5LWI3YTQtYzhkMGExNGFlY2Q0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.9/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "90%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "81/100"
+    }],
+    "Metascore": "81",
+    "imdbRating": "7.9",
+    "imdbVotes": "596,732",
+    "imdbID": "tt1136608",
+    "Type": "movie",
+    "DVD": "22 Dec 2009",
+    "BoxOffice": "$115,646,235",
+    "Production": "Sony Pictures/Screen Gems",
+    "Website": "http://www.d-9.com/",
+    "Response": "True"
+  },
+  {
+    "Title": "The Thing",
+    "Year": "1982",
+    "Rated": "R",
+    "Released": "25 Jun 1982",
+    "Runtime": "109 min",
+    "Genre": "Horror, Mystery, Sci-Fi",
+    "Director": "John Carpenter",
+    "Writer": "Bill Lancaster (screenplay), John W. Campbell Jr. (story)",
+    "Actors": "Kurt Russell, Wilford Brimley, T.K. Carter, David Clennon",
+    "Plot": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+    "Language": "English, Norwegian",
+    "Country": "USA",
+    "Awards": "3 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDcyZmFjY2YtN2I1OC00MzU3LWIzZGEtZDA5N2VlNDJjYWI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "84%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "57/100"
+    }],
+    "Metascore": "57",
+    "imdbRating": "8.1",
+    "imdbVotes": "323,897",
+    "imdbID": "tt0084787",
+    "Type": "movie",
+    "DVD": "28 Aug 2001",
+    "BoxOffice": "N/A",
+    "Production": "Universal Pictures",
+    "Website": "http://www.theofficialjohncarpenter.com/pages/themovies/th/th.html",
+    "Response": "True"
+  }, {
+    "Title": "Back to the Future Part II",
+    "Year": "1989",
+    "Rated": "PG",
+    "Released": "22 Nov 1989",
+    "Runtime": "108 min",
+    "Genre": "Adventure, Comedy, Sci-Fi",
+    "Director": "Robert Zemeckis",
+    "Writer": "Robert Zemeckis (characters), Bob Gale (characters), Robert Zemeckis (story), Bob Gale (story), Bob Gale (screenplay)",
+    "Actors": "Michael J. Fox, Christopher Lloyd, Lea Thompson, Thomas F. Wilson",
+    "Plot": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "Nominated for 1 Oscar. Another 9 wins & 8 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZTMxMGM5MjItNDJhNy00MWI2LWJlZWMtOWFhMjI5ZTQwMWM3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.8/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "64%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "57/100"
+    }],
+    "Metascore": "57",
+    "imdbRating": "7.8",
+    "imdbVotes": "415,923",
+    "imdbID": "tt0096874",
+    "Type": "movie",
+    "DVD": "17 Dec 2002",
+    "BoxOffice": "N/A",
+    "Production": "Universal Pictures",
+    "Website": "http://www.backtothefuture.com/",
+    "Response": "True"
+  }, {
+    "Title": "Back to the Future Part III",
+    "Year": "1990",
+    "Rated": "PG",
+    "Released": "25 May 1990",
+    "Runtime": "118 min",
+    "Genre": "Adventure, Comedy, Sci-Fi, Western",
+    "Director": "Robert Zemeckis",
+    "Writer": "Robert Zemeckis (characters), Bob Gale (characters), Robert Zemeckis (story), Bob Gale (story), Bob Gale (screenplay)",
+    "Actors": "Michael J. Fox, Christopher Lloyd, Mary Steenburgen, Thomas F. Wilson",
+    "Plot": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\" Tannen. Marty McFly travels back in time to save his friend.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "5 wins & 11 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjhlMGYxNmMtOWFmMi00Y2M2LWE5NWYtZTdlMDRlMGEzMDA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.4/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "74%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "55/100"
+    }],
+    "Metascore": "55",
+    "imdbRating": "7.4",
+    "imdbVotes": "349,529",
+    "imdbID": "tt0099088",
+    "Type": "movie",
+    "DVD": "17 Dec 2002",
+    "BoxOffice": "N/A",
+    "Production": "Universal Pictures",
+    "Website": "http://www.backtothefuture.com/",
+    "Response": "True"
+  },
+  {
+    "Title": "Cloud Atlas",
+    "Year": "2012",
+    "Rated": "R",
+    "Released": "26 Oct 2012",
+    "Runtime": "172 min",
+    "Genre": "Action, Drama, Mystery, Sci-Fi",
+    "Director": "Tom Tykwer, Lana Wachowski, Lilly Wachowski",
+    "Writer": "David Mitchell (novel), Lana Wachowski (written for the screen by), Tom Tykwer (written for the screen by), Lilly Wachowski (written for the screen by), Chris Lindsay (additional material)",
+    "Actors": "Tom Hanks, Halle Berry, Jim Broadbent, Hugo Weaving",
+    "Plot": "An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.",
+    "Language": "English, Spanish, Ukrainian",
+    "Country": "Germany, USA, Hong Kong, Singapore",
+    "Awards": "Nominated for 1 Golden Globe. Another 16 wins & 75 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTczMTgxMjc4NF5BMl5BanBnXkFtZTcwNjM5MTA2OA@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.5/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "66%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "55/100"
+    }],
+    "Metascore": "55",
+    "imdbRating": "7.5",
+    "imdbVotes": "322,565",
+    "imdbID": "tt1371111",
+    "Type": "movie",
+    "DVD": "14 May 2013",
+    "BoxOffice": "$22,100,000",
+    "Production": "Warner Bros. Pictures",
+    "Website": "http://www.cloudatlasmovie.com",
+    "Response": "True"
+  },
+
+  {
+    "Title": "The Fifth Element",
+    "Year": "1997",
+    "Rated": "PG-13",
+    "Released": "09 May 1997",
+    "Runtime": "126 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "Luc Besson",
+    "Writer": "Luc Besson (screenplay by), Robert Mark Kamen (screenplay by), Luc Besson (story by)",
+    "Actors": "Bruce Willis, Gary Oldman, Ian Holm, Milla Jovovich",
+    "Plot": "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay.",
+    "Language": "English, Swedish, German, Arabic, Egyptian (Ancient)",
+    "Country": "France",
+    "Awards": "Nominated for 1 Oscar. Another 9 wins & 36 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWFjYmZmZGQtYzg4YS00ZGE5LTgwYzAtZmQwZjQ2NDliMGVmXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "7.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "71%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "52/100"
+    }],
+    "Metascore": "52",
+    "imdbRating": "7.7",
+    "imdbVotes": "396,721",
+    "imdbID": "tt0119116",
+    "Type": "movie",
+    "DVD": "09 Dec 1997",
+    "BoxOffice": "N/A",
+    "Production": "Sony Pictures Home Entertainment",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Eternal Sunshine of the Spotless Mind",
+    "Year": "2004",
+    "Rated": "R",
+    "Released": "19 Mar 2004",
+    "Runtime": "108 min",
+    "Genre": "Drama, Romance, Sci-Fi",
+    "Director": "Michel Gondry",
+    "Writer": "Charlie Kaufman (story), Michel Gondry (story), Pierre Bismuth (story), Charlie Kaufman (screenplay)",
+    "Actors": "Jim Carrey, Kate Winslet, Gerry Robert Byrne, Elijah Wood",
+    "Plot": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "Won 1 Oscar. Another 71 wins & 109 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.3/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "93%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "89/100"
+    }],
+    "Metascore": "89",
+    "imdbRating": "8.3",
+    "imdbVotes": "809,405",
+    "imdbID": "tt0338013",
+    "Type": "movie",
+    "DVD": "28 Sep 2004",
+    "BoxOffice": "$34,126,138",
+    "Production": "Focus Features",
+    "Website": "http://www.eternalsunshine.com/",
+    "Response": "True"
+  },
+  {
+    "Title": "Signs",
+    "Year": "2002",
+    "Rated": "PG-13",
+    "Released": "02 Aug 2002",
+    "Runtime": "106 min",
+    "Genre": "Drama, Mystery, Sci-Fi, Thriller",
+    "Director": "M. Night Shyamalan",
+    "Writer": "M. Night Shyamalan",
+    "Actors": "Mel Gibson, Joaquin Phoenix, Rory Culkin, Abigail Breslin",
+    "Plot": "A family living on a farm finds mysterious crop circles in their fields which suggests something more frightening to come.",
+    "Language": "English, Portuguese",
+    "Country": "USA",
+    "Awards": "3 wins & 32 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDUwMDUyMDAyNF5BMl5BanBnXkFtZTYwMDQ3NzM3._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "6.7/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "73%"
+    }, {
+      "Source": "Metacritic",
+      "Value": "59/100"
+    }],
+    "Metascore": "59",
+    "imdbRating": "6.7",
+    "imdbVotes": "309,725",
+    "imdbID": "tt0286106",
+    "Type": "movie",
+    "DVD": "07 Jan 2003",
+    "BoxOffice": "$227,935,522",
+    "Production": "Buena Vista Distribution Compa",
+    "Website": "http://bventertainment.go.com/movies/signs/index.html",
+    "Response": "True"
+  },
+  {
+    "Title": "Orpheus",
+    "Year": "1950",
+    "Rated": "Not Rated",
+    "Released": "29 Nov 1950",
+    "Runtime": "95 min",
+    "Genre": "Fantasy, Drama, Romance",
+    "Director": "Jean Cocteau",
+    "Writer": "Jean Cocteau",
+    "Actors": "Jean Marais, François Périer, María Casares, Marie Déa",
+    "Plot": "A poet in love with Death follows his unhappy wife into the underworld.",
+    "Language": "French",
+    "Country": "France",
+    "Awards": "Nominated for 1 BAFTA Film Award. Another 1 nomination.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTUwMjUwMTY2MV5BMl5BanBnXkFtZTgwNzA2MDM5MTE@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.0/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "96%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "8,883",
+    "imdbID": "tt0041719",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "Criterion Collection",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Woman in the Dunes",
+    "Year": "1964",
+    "Rated": "Not Rated",
+    "Released": "25 Oct 1964",
+    "Runtime": "123 min",
+    "Genre": "Drama, Thriller",
+    "Director": "Hiroshi Teshigahara",
+    "Writer": "Kôbô Abe (novel), Kôbô Abe (screenplay), Eiko Yoshida (scripter)",
+    "Actors": "Eiji Okada, Kyôko Kishida, Hiroko Itô, Kôji Mitsui",
+    "Plot": "An entomologist on vacation is trapped by local villagers into living with a woman whose life task is shoveling sand for them.",
+    "Language": "Japanese",
+    "Country": "Japan",
+    "Awards": "Nominated for 2 Oscars. Another 10 wins & 1 nomination.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BN2RlNTlkYTAtZDY2My00OGI0LWE1OTEtNmY1NDU2YTU0MGUxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [{
+      "Source": "Internet Movie Database",
+      "Value": "8.5/10"
+    }, {
+      "Source": "Rotten Tomatoes",
+      "Value": "100%"
+    }],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "14,480",
+    "imdbID": "tt0058625",
+    "Type": "movie",
+    "DVD": "04 Jan 2000",
+    "BoxOffice": "N/A",
+    "Production": "Criterion Collection",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
       "Title": "Star Wars: Episode IV - A New Hope",
       "Year": "1977",
       "Rated": "PG",
