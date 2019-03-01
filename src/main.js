@@ -20,10 +20,10 @@ const printMovie = (data) => {
   });
 }
 
-const prueba = document.getElementById('boton-prueba');
-prueba.addEventListener('click', () => {
-  printMovie(omdbData);
-})
+// const prueba = document.getElementById('boton-prueba');
+// prueba.addEventListener('click', () => {
+//   printMovie(omdbData);
+// })
 
 
 //función que imprime la data filtrada

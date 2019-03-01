@@ -5,38 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
   <title>Sci-FiLms</title>
 </head>
 
 <body>
-
   <nav class="navbar navbar-light bg-light justify-content-between">
-    <a class="navbar-brand">Sci-FiLms</a>
-    <form class="form-inline">
-      <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
-      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-      <select name="filter-option" id="filter-by-option">
+     <a class="navbar-brand">Sci-FiLms</a>
+     <form class="form-inline">
+       <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
+       <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+       <select name="filter-option" id="filter-by-option">
         <option value="Title">Título</option>
         <option value="Actors">Actor</option>
         <option value="Director">Director</option>
+     </form>
+   </nav>
+   <section>
+     <button id="boton-prueba">Prueba</button>
 
-      </select>
-
-    </form>
-  </nav>
-
-  <section>
-
-    <button id="boton-prueba">Prueba</button>
-    <button id="button-filter">Filtrado</button>
-
-    <header class="title">Sci-Films</header>
-    <div id="result"></div>
-    <div id="movies"></div>
+     <div id="result"></div>
+     <div id="movies"></div>
+   </section>
+<section id="movie-of-week">
+  <div class="card mb-3" style="opacity: .8; max-width: 280px;">
+  <div >
+    <div >
+      <img src="images/odisea2001.jpg"  alt="Predator">
+    </div>
+    <div class="col-md-6 info">
+      <div class="card-body">
+        <h5 class="card-title">Movie of the week</h5>
+        <p>⭐⭐⭐⭐</p>
+        <p class="card-text">After discovering a mysterious artifact buried beneath the lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer HAL 9000.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
 
   </section>
 
@@ -51,22 +58,56 @@
 
         <img src="images/predator.jpg" alt="predator">
         <div class="carousel-caption d-none d-md-block">
-          <h5>...</h5>
-          <p>...</p>
+          <h2>Predator</h2>
+          <p>Year: 1987</br>
+          Rated: R</br>
+          Released: 12 Jun 1987</br>
+          Runtime: 107 min</br>
+          Genre: Action, Adventure, Sci-Fi, Thriller</br>
+          Director: John McTiernan</br>
+          Writer: Jim Thomas, John Thomas</br>
+          Actors: Arnold Schwarzenegger, Carl Weathers, Elpidia Carrillo, Bill Duke</br>
+          Plot: A team of commandos on a mission in a Central American jungle find</br>
+          themselves hunted by an extraterrestrial warrior.
+          Language: English, Spanish, Russian</br>
+          Country: USA, Mexico</br>
+          Awards: Nominated for 1 Oscar. Another 3 wins & 4 nominations.</p>
         </div>
       </div>
       <div class="carousel-item active">
         <img src="images/metropolis.jpg" alt="metropolis">
         <div class="carousel-caption d-none d-md-block">
-          <h5>...</h5>
-          <p>...</p>
+          <h2>Metropolis</h2>
+          <p>Year: 1927 </br>
+            Released: 13 Mar 1927</br>
+            Runtime: 153 min</br>
+            Genre: Drama, Sci-Fi</br>
+            Director: Fritz Lang</br>
+            Writer:Thea von Harbou (screenplay), Thea von Harbou (novel)</br>
+            Actors: Alfred Abel, Gustav Fröhlich, Rudolf Klein-Rogge, Fritz Rasp</br>
+            Plot: In a futuristic city sharply divided between the working class and the city planners,</br>
+            the son of the city's mastermind falls in love with a working class prophet who</br>
+            predicts the coming of a savior to mediate their differences.</br>
+            Language: German</br>
+            Country: Germany</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/eXistenZ.jpg" alt="...">
+        <img src="images/eXistenZ.jpg" alt="eXistenZ">
         <div class="carousel-caption d-none d-md-block">
-          <h5>...</h5>
-          <p>...</p>
+          <h2>eXistenZ</h2>
+          <p>Year: 1999</br>
+            Rated: R</br>
+          Released: 23 Apr 1999</br>
+          Runtime: 97 min</br>
+          Genre: Horror, Sci-Fi, Thriller</br>
+          Director: David Cronenberg</br>
+          Writer: David Cronenberg</br>
+          Actors: Jennifer Jason Leigh, Jude Law, Ian Holm, Willem Dafoe</br>
+          Plot: A game designer on the run from assassins must play her latest virtual reality creation with</br>
+           a marketing trainee to determine if the game has been damaged.</br>
+          Language: English</br>
+          Country: Canada, UK, France</p>
         </div>
       </div>
 
