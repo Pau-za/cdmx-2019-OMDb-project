@@ -25,9 +25,9 @@ catalogueButton.addEventListener('click', () => {
   printMovie(omdbData);
 })
 
-
 //función que imprime la data filtrada
 const printFilteredData = (data) => {
+  movies.style.display = 'block';
   let printing = ``;
   let title = [];
   let year = [];
@@ -42,7 +42,7 @@ const printFilteredData = (data) => {
   let country = [];
   let awards = [];
   let poster = [];
-  document.getElementById('movies').innerHTML = ``;
+  movies.innerHTML = ``;
   data.forEach(element => {
     title = element.Title;
     year = element.Year;
@@ -67,9 +67,13 @@ const inputSearch = document.getElementById('input-value');
 let dataTitle = [];
 let dataActors = [];
 let dataDirector = [];
-// const result = document.getElementById('result');
+const result = document.getElementById('result');
 
 filterOption.addEventListener("change", () => {
+  if (movies.style.display === 'block' || movies.style.display === 'block') {
+    movies.style.display = 'none';
+    movies.style.display = 'none';
+  }
   const filterSelected = filterOption.value;
   console.log(filterSelected);
   console.log(inputSearch.value);
@@ -84,7 +88,7 @@ filterOption.addEventListener("change", () => {
         dataTitle.push(element);
         return printFilteredData(dataTitle);
       } else {
-        return document.getElementById('result').innerHTML = `<p>Title Not Found</p>`;
+        result.style.display = 'block';
       }
     } else if (filterSelected === 'Director') {
       const director = element.Director;
@@ -92,7 +96,7 @@ filterOption.addEventListener("change", () => {
         dataDirector.push(element);
         return printFilteredData(dataDirector);
       } else {
-        return document.getElementById('result').innerHTML = `<p>Title Not Found</p>`;
+        result.style.display = 'block';
       }
     } else if (filterSelected === 'Actors') {
       const actors = element.Actors;
@@ -100,7 +104,7 @@ filterOption.addEventListener("change", () => {
         dataActors.push(element);
         return printFilteredData(dataActors);
       } else {
-        return document.getElementById('result').innerHTML = `<p>Title Not Found</p>`;
+        result.style.display = 'block';
       }
     }
   })
