@@ -98,15 +98,28 @@ La página web fue desarrollada mediante:
 De acuerdo a las encuestas y a los datos recopilados, entre el grupo elegimos el género al cuál se iba a enfocar nuestro portal
 
 | Tarea | Andrea Parrilla | Andrea Velázquez | Elena Hernández | Paulina Zedillo |
+| - | - | - | - | - |
 | Definición de Producto | x | x | x | x |
+| - | - | - | - | - |
 | Investigación | x |   |   |   |
+| - | - | - | - | - |
 | Encuestas | x |   |   |   |
+| - | - | - | - | - |
 | Diseño de Prototipos | x |   |   |   |
+| - | - | - | - | - |
 | Test de Usabilidad | x |   |   |   |
+| - | - | - | - | - |
 | Desarrollo: JS |   | x | x | x |
+| - | - | - | - | - |
 | Desarrollo: CSS |   | x | x |   |
+| - | - | - | - | - |
 | Desarrollo: HTML |   | x | x | x |
+| - | - | - | - | - |
 | Desarrollo: CSS: Bootstrap |   |   | x |   |
+| - | - | - | - | - |
 | Read me | x |   |   | x |
+| - | - | - | - | - |
 | Extracción de Data |   | x | x |   |
+| - | - | - | - | - |
 | API FireBase |   |   | x |   |
+
