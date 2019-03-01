@@ -87,13 +87,26 @@ Para poder acceder a este código y modificalo es necesario:
 6. Finalmente con el comando `npm run test` deberías poder ejecutar las 
    pruebas unitarias (unit tests).
 
+## Especificaciones Técnicas
+La página web fue desarrollada mediante:
+- JavaScript ES6: para la funcionalidad.
+- HTML 5: para crear la arquitectura de la página.
+- CSS 3 y Bootstrap 4.1: para dar estilo a la página.
+- FireBase: para subir la porción de base de datos extraída de la API de [OMDb](http://www.omdbapi.com/).
+
 ## División de actividades
 De acuerdo a las encuestas y a los datos recopilados, entre el grupo elegimos el género al cuál se iba a enfocar nuestro portal
 
-#### Paulina Zedillo 
-
-#### Andrea Velázquez
-
-#### Elena Hernández
-
-#### Andrea Parrilla
+| Tarea | Andrea Parrilla | Andrea Velázquez | Elena Hernández | Paulina Zedillo |
+| Definición de Producto | x | x | x | x |
+| Investigación | x |   |   |   |
+| Encuestas | x |   |   |   |
+| Diseño de Prototipos | x |   |   |   |
+| Test de Usabilidad | x |   |   |   |
+| Desarrollo: JS |   | x | x | x |
+| Desarrollo: CSS |   | x | x |   |
+| Desarrollo: HTML |   | x | x | x |
+| Desarrollo: CSS: Bootstrap |   |   | x |   |
+| Read me | x |   |   | x |
+| Extracción de Data |   | x | x |   |
+| API FireBase |   |   | x |   |
