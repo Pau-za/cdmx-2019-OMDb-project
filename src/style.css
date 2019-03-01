@@ -40,6 +40,10 @@ display: unset;
   text-align: center;
   padding: 5%;
 }
+
+.hide{
+  display: none;
+}
 #result {
     color: blanchedalmond;
     font-size: 30px;

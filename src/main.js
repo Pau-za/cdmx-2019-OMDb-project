@@ -27,7 +27,29 @@ const printMovie = (data) => {
     let language = element.Language;
     let country = element.Country;
     let awards = element.Awards;
-    const result = `<div class="movies-catalogue" value="${imdbID}"><h3> ${title}</h3> <img src="${poster}"></div> <div class= "information-catalogue"><p>Year: ${year}</p><p>Rated: ${rated}</p> <p>Runtime: ${runtime}</p><p>Genre: ${genre}</p><p>Director: ${director}</p><p>Writer: ${writer}</p><p>Actors: ${actors}</p><p>Plot: ${plot}</p><p>Language: ${language}</p> <p>Country: ${country}</p> <p>Awards: ${awards}</p></div>`;
+    const result = `<div class="movies-catalogue" id="${imdbID}"><div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+      <img src="${poster}">
+      </div>
+      <div class="col-md-8 hide">
+        <div class="card-body">
+          <h3 class="card-title">${title}</h3>
+          <h5 class="card-text">Country: ${country}</h5>
+          <h5 class="card-text">Directed by: ${director}</h5>
+          <h5 class="card-text">${writer}</h5>
+          <h5 class="card-text">Cast: ${actors}</h5>
+          <h5 class="card-text">Year: ${year}</h5>
+          <h5 class="card-text">Runtime: ${runtime}</h5>
+          <h5 class="card-text">Language: ${language}</h5>
+          <h5 class="card-text">Rated: ${rated}</h5>
+          <h5 class="card-text">Genre: ${genre}</h5>
+          <h5 class="card-text">Awards: ${awards}</h5>
+          <h5 class="card-text">Plot: ${plot}</h5>
+        </div>
+      </div>
+    </div>
+  </div>`;
     catalogue.insertAdjacentHTML('beforeend', result);
   })
 }
@@ -39,7 +61,9 @@ catalogueButton.addEventListener('click', () => {
 
 //función que imprime la data filtrada
 const movies = document.getElementById('movies');
+const result = document.getElementById('result');
 const printFilteredData = (data) => {
+  result.style.display = 'none';
   movies.style.display = 'block';
   let printing = ``;
   let title = [];
@@ -70,7 +94,29 @@ const printFilteredData = (data) => {
     country = element.Country;
     awards = element.Awards;
     poster = element.Poster;
-    printing = `<h3>${title}</h3> <img src="${poster}"> <p>Country: ${country}</p> <h5>Directed by: ${director}</h5> <h5>${writer}</h5> <p>Cast: ${actors}</p> <h4>Year: ${year}</h4> <p>Runtime: ${runtime}</p> <p>Language: ${language}</p> <p>Rated: ${rated}</p> <h4>Genre: ${genre}</h4> <p>Awards: ${awards}</p> <p>Plot: ${plot}</p> `
+    printing = `<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+    <img src="${poster}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">${title}</h3>
+        <h5 class="card-text">Country: ${country}</h5>
+        <h5 class="card-text">Directed by: ${director}</h5>
+        <h5 class="card-text">${writer}</h5>
+        <h5 class="card-text">Cast: ${actors}</h5>
+        <h5 class="card-text">Year: ${year}</h5>
+        <h5 class="card-text">Runtime: ${runtime}</h5>
+        <h5 class="card-text">Language: ${language}</h5>
+        <h5 class="card-text">Rated: ${rated}</h5>
+        <h5 class="card-text">Genre: ${genre}</h5>
+        <h5 class="card-text">Awards: ${awards}</h5>
+        <h5 class="card-text">Plot: ${plot}</h5>
+      </div>
+    </div>
+  </div>
+</div>`
     return document.getElementById('movies').insertAdjacentHTML('beforeend', printing);
   })
 }
@@ -80,12 +126,12 @@ const inputSearch = document.getElementById('input-value');
 let dataTitle = [];
 let dataActors = [];
 let dataDirector = [];
-const result = document.getElementById('result');
+
 
 filterOption.addEventListener("change", () => {
-  if (movies.style.display === 'block' || movies.style.display === 'block') {
+  if (movies.style.display === 'block' || result.style.display === 'block') {
     movies.style.display = 'none';
-    movies.style.display = 'none';
+    result.style.display = 'none';
   }
   const filterSelected = filterOption.value;
   console.log(filterSelected);
@@ -97,26 +143,26 @@ filterOption.addEventListener("change", () => {
   omdbData.forEach(element => {
     if (filterSelected === 'Title') {
       const title = element.Title;
-      if ((new RegExp(string, "i")).test(title)) {
+      if ((new RegExp(string, "i")).test(title) === true) {
         dataTitle.push(element);
         return printFilteredData(dataTitle);
-      } else {
+      } else if ((new RegExp(string, "i")).test(title) === false) {
         result.style.display = 'block';
       }
     } else if (filterSelected === 'Director') {
       const director = element.Director;
-      if ((new RegExp(string, "i")).test(director)) {
+      if ((new RegExp(string, "i")).test(director) === true) {
         dataDirector.push(element);
         return printFilteredData(dataDirector);
-      } else {
+      } else if ((new RegExp(string, "i")).test(director) === false) {
         result.style.display = 'block';
       }
     } else if (filterSelected === 'Actors') {
       const actors = element.Actors;
-      if ((new RegExp(string, "i")).test(actors)) {
+      if ((new RegExp(string, "i")).test(actors) === true) {
         dataActors.push(element);
         return printFilteredData(dataActors);
-      } else {
+      } else if ((new RegExp(string, "i")).test(actors) === false) {
         result.style.display = 'block';
       }
     }
@@ -158,7 +204,10 @@ filterOption.addEventListener("change", () => {
 //     return printElement.insertAdjacentHTML('beforeend', printing);
 // }
 
-// catalogue.addEventListener('click', () => {
+//  catalogue.addEventListener('click', () => {
+
+const information = document.getElementsByClassName('col-md-8');
+//   // console.log(information);
 //   let movieResult = [];
 //   omdbData.forEach(element => {
 //     if(moviesCatalogue.value === element.imdbID){
@@ -166,6 +215,13 @@ filterOption.addEventListener("change", () => {
 //       console.log(movieResult);
 //       return movieResult;
 //     }
+//   // information.classlist.remove('hide');
 //   })
-//   printOneMovie(movieResult);
-// })
+
+const moviesCatalogue = Array.from(document.getElementsByClassName('movies-catalogue'));
+for(let i = 0; i < moviesCatalogue.length; i++){
+  moviesCatalogue[i].addEventListener('click', () => {
+    let movieID = moviesCatalogue[i].id;
+    information.classlist.remove('hide');
+  })
+}

@@ -20,12 +20,23 @@
      <form class="form-inline">
        <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
        <button class="btn btn-light my-2 my-sm-0" type="submit" id="boton-prueba">Search</button>
+       <select name="filter-option" id="filter-by-option">
+          <option value="search-by">Search By</option>
+          <option value="Title">Título</option>
+          <option value="Actors">Actor</option>
+          <option value="Director">Director</option>
+        </select>
      </form>
    </nav>
+
    <section>
-     <p id="result"></p>
-     <div id="movies"></div>
-   </section>
+      <button id="catalogue-button">Show Complete Catalogue</button>
+      <div id="result" class="hide"></div>
+      <div id="movies" class="hide"></div>
+      <div id="complete-information"> <div id="catalogue"></div></div>
+    </section>
+
+
 <section id="movie-of-week">
   <div class="card mb-3" style="opacity: .8; max-width: 280px;">
   <div >
