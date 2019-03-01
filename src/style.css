@@ -9,6 +9,24 @@ h3{
   font-size: 30px;
 }
 
+h5{
+  color: #FAFAFA;
+}
+
+p{
+  color: #FAFAFA;
+}
+
+.box-movie{
+  position: relative;
+  text-align: center;
+  padding: 5%;
+}
+
+.card{
+background-color: black;
+}
+
 .carousel{
   margin: 30px 15px;
 }
@@ -17,14 +35,19 @@ h3{
   padding-left: 200px;
 }
 
-.info{
-display: unset;
-}
-
 .featurates{
   height: auto;
   width: 50%;
   opacity: 8%;
+}
+
+.info{
+display: unset;
+}
+
+.information-catalogue, .movies-catalogue{
+  widows: 50%;
+  display: inline-block;
 }
 
 .title{
@@ -35,33 +58,13 @@ display: unset;
     text-align: center;
 
 }
-.box-movie{
-  position: relative;
-  text-align: center;
-  padding: 5%;
-}
-#result {
-    color: blanchedalmond;
-    font-size: 30px;
-}
-
-#movie-of-week{
-  background-image: url("./images/Solaris.png");
-  background-size: auto;
-
-}
 
 #complete-information{
   width: 100%;
   display: inline-block;
 }
 
-#catalogue{
-  width: 50%;
-  display: inline-block;
-}
-
-.information-catalogue, .movies-catalogue{
-  widows: 50%;
-  display: inline-block;
+#movie-of-week{
+  background-image: url("./images/Solaris.png");
+  background-size: auto;
 }

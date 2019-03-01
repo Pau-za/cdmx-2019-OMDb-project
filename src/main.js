@@ -27,7 +27,29 @@ const printMovie = (data) => {
     let language = element.Language;
     let country = element.Country;
     let awards = element.Awards;
-    const result = `<div class="movies-catalogue" value="${imdbID}"><h3> ${title}</h3> <img src="${poster}"></div> <div class= "information-catalogue"><p>Year: ${year}</p><p>Rated: ${rated}</p> <p>Runtime: ${runtime}</p><p>Genre: ${genre}</p><p>Director: ${director}</p><p>Writer: ${writer}</p><p>Actors: ${actors}</p><p>Plot: ${plot}</p><p>Language: ${language}</p> <p>Country: ${country}</p> <p>Awards: ${awards}</p></div>`;
+    const result = `<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+    <img src="${poster}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">${title}</h3>
+        <h5 class="card-text">Country: ${country}</h5>
+        <h5 class="card-text">Directed by: ${director}</h5>
+        <h5 class="card-text">${writer}</h5>
+        <h5 class="card-text">Cast: ${actors}</h5>
+        <h5 class="card-text">Year: ${year}</h5>
+        <h5 class="card-text">Runtime: ${runtime}</h5>
+        <h5 class="card-text">Language: ${language}</h5>
+        <h5 class="card-text">Rated: ${rated}</h5>
+        <h5 class="card-text">Genre: ${genre}</h5>
+        <h5 class="card-text">Awards: ${awards}</h5>
+        <h5 class="card-text">Plot: ${plot}</h5>
+      </div>
+    </div>
+  </div>
+</div>`
     catalogue.insertAdjacentHTML('beforeend', result);
   })
 }
@@ -70,7 +92,29 @@ const printFilteredData = (data) => {
     country = element.Country;
     awards = element.Awards;
     poster = element.Poster;
-    printing = `<h3>${title}</h3> <img src="${poster}"> <p>Country: ${country}</p> <h5>Directed by: ${director}</h5> <h5>${writer}</h5> <p>Cast: ${actors}</p> <h4>Year: ${year}</h4> <p>Runtime: ${runtime}</p> <p>Language: ${language}</p> <p>Rated: ${rated}</p> <h4>Genre: ${genre}</h4> <p>Awards: ${awards}</p> <p>Plot: ${plot}</p> `
+    printing = `<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+    <img src="${poster}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">${title}</h3>
+        <h5 class="card-text">Country: ${country}</h5>
+        <h5 class="card-text">Directed by: ${director}</h5>
+        <h5 class="card-text">${writer}</h5>
+        <h5 class="card-text">Cast: ${actors}</h5>
+        <h5 class="card-text">Year: ${year}</h5>
+        <h5 class="card-text">Runtime: ${runtime}</h5>
+        <h5 class="card-text">Language: ${language}</h5>
+        <h5 class="card-text">Rated: ${rated}</h5>
+        <h5 class="card-text">Genre: ${genre}</h5>
+        <h5 class="card-text">Awards: ${awards}</h5>
+        <h5 class="card-text">Plot: ${plot}</h5>
+      </div>
+    </div>
+  </div>
+</div>`
     return document.getElementById('movies').insertAdjacentHTML('beforeend', printing);
   })
 }
