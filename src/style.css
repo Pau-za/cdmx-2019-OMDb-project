@@ -2,7 +2,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-  background-color: black;
+  background-color: #424242;
 }
 h3{
   color:#FFD700;
@@ -10,7 +10,11 @@ h3{
 }
 
 .carousel{
-  margin: 30px 0 20px 35px;
+  margin: 30px 15px;
+}
+
+.carousel-caption{
+  padding-left: 200px;
 }
 
 .info{
@@ -36,36 +40,14 @@ display: unset;
   text-align: center;
   padding: 5%;
 }
-
-.hide {
-  display: none;
-}
-
-#boton-prueba{
-    background-color:white;
-    border: 1px solid black;
-    padding: 6px 12px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 15px;
-    position:relative;
-    left: 80%;
-
-
-}
-#boton-prueba:hover{
-    cursor: pointer;
-    background: #FFD700;
-}
 #result {
     color: blanchedalmond;
     font-size: 30px;
 }
 
 #movie-of-week{
-  background-image: url("./images/Solaris.png") ;
+  background-image: url("./images/Solaris.png");
+  background-size: auto;
 
 }
 
