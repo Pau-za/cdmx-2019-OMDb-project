@@ -1,7 +1,7 @@
 # cdmx-2019-OMDb-project
 ## Preámbulo
 De acuerdo con algunas encuentas en México las películas de Ciencia Ficción ocupan el tercer lugar como el género predilecto. Además en México existen muchas plataformas de streaming, se calcula que hay más de 7.7 millones de suscriptores de plataformas de video por internet. Los usuarios antes de acceder a estas plataformas suelen consultar portales de recomendaciones de películas para seleccionar que ver. Existe un gran campo que gusta de ver péliculas de Ciencia Ficción, nuestro producto esta enfocado a estas personas.
-![LFP_13]()
+![LFP_13](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/encuestas.jpg)
 
 ## Definición de producto
 Es una página que sirve de guía de recomendaciones especializada en películas de ciencia ficción de culto.
@@ -59,16 +59,15 @@ Además de mostrar las películas, ¿Que más te gustaría que mostrará esta p�
 De acuerdo a al feedback recibido por parte de los usuarios, se hicieron cambios al prototipo de alta fidelidad, se espera que producto final llegue a estos alcances. El ícono utilizado como logo de nuestro portal fue tomado de la página picsWe.
 
 ### Desktop
-![LFP_6]()
-![LFP_7]()
-![LFP_8]()
+![LFP_6](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Desktop1.jpg)
+![LFP_7](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Desktop2.jpg)
+![LFP_8](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Desktop3.jpg)
 
 ### Mobile
-![LFP_9]()
-![LFP_10]()
-![LFP_11]()
-![LFP_12]()
-
+![LFP_9](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Mobile1.jpg)
+![LFP_10](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Mobile2.jpg)
+![LFP_11](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Mobile3.jpg)
+![LFP_12](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/PrototipoAlta/Mobile4.jpg)
 
 ## Acceso al Código
 Para poder acceder a este código y modificalo es necesario:
@@ -89,10 +88,12 @@ Para poder acceder a este código y modificalo es necesario:
    pruebas unitarias (unit tests).
 
 ## División de actividades
+De acuerdo a las encuestas y a los datos recopilados, entre el grupo elegimos género al cuál se iba a enfocar nuestro portal
 
 #### Paulina Zedillo 
+
 #### Andrea Velázquez
+
 #### Elena Hernández
+
 #### Andrea Parrilla
-
-
