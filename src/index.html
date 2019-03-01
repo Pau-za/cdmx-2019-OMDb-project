@@ -18,6 +18,7 @@
       <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" id="input-value">
       <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
       <select name="filter-option" id="filter-by-option">
+        <option value="search-by">Search By</option>
         <option value="Title">Título</option>
         <option value="Actors">Actor</option>
         <option value="Director">Director</option>
@@ -27,8 +28,9 @@
 
   <section>
     <button id="catalogue-button">Show Complete Catalogue</button>
-    <div id="result" class="hide"></div>
+    <div id="result" class="hide"><h3>Title not found</h3></div>
     <div id="movies" class="hide"></div>
+    <div id="complete-information"> <div id="catalogue"></div></div>
   </section>
 
   <section id="movie-of-week">

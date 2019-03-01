@@ -68,3 +68,18 @@ display: unset;
   background-image: url("./images/Solaris.png") ;
 
 }
+
+#complete-information{
+  width: 100%;
+  display: inline-block;
+}
+
+#catalogue{
+  width: 50%;
+  display: inline-block;
+}
+
+.information-catalogue, .movies-catalogue{
+  widows: 50%;
+  display: inline-block;
+}
