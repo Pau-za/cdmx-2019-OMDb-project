@@ -40,8 +40,6 @@ display: unset;
   text-align: center;
   padding: 5%;
 }
-
-}
 #result {
     color: blanchedalmond;
     font-size: 30px;
@@ -51,4 +49,19 @@ display: unset;
   background-image: url("./images/Solaris.png");
   background-size: auto;
 
+}
+
+#complete-information{
+  width: 100%;
+  display: inline-block;
+}
+
+#catalogue{
+  width: 50%;
+  display: inline-block;
+}
+
+.information-catalogue, .movies-catalogue{
+  widows: 50%;
+  display: inline-block;
 }
