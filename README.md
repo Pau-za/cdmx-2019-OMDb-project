@@ -88,7 +88,7 @@ Para poder acceder a este código y modificalo es necesario:
    pruebas unitarias (unit tests).
 
 ## División de actividades
-De acuerdo a las encuestas y a los datos recopilados, entre el grupo elegimos género al cuál se iba a enfocar nuestro portal
+De acuerdo a las encuestas y a los datos recopilados, entre el grupo elegimos el género al cuál se iba a enfocar nuestro portal
 
 #### Paulina Zedillo 
 
