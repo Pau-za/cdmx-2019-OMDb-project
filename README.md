@@ -25,7 +25,7 @@ Se realizará un guión donde se especifíque al usuario las tareas que debe rea
 Además de mostrar las películas, ¿Que más te gustaría que mostrará esta página como un plus?
 
 ## Historias de Usuario entrevista Testeo 1
-![LFP_4]
+![LFP_4](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/entrevistas1.jpg)
 
 ## Planificación de las pruebas testeo 2
 **Guión:** 
@@ -38,7 +38,7 @@ Además de mostrar las películas, ¿Que más te gustaría que mostrará esta p�
 
 **Tareas para el Usuario:**
 ## Historias de Usuario entrevista Testeo 1
-![LFP_5]
+![LFP_5](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/entrevistas%202.jpg)
 
 
 
