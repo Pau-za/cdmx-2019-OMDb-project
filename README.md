@@ -28,11 +28,17 @@ Además de mostrar las películas, ¿Qué más te gustaría que mostrara esta p�
 ![LFP_4](https://github.com/Andrea0611/cdmx-2019-OMDb-project/blob/master/src/images/entrevistas1.jpg)
 
 ## Historias de Usuario
-**1** Yo como usuario quiero visualizar las mejores películas de ciencia ficción, con su poster y su sinopsis.
-**2** Yo como usuario quiero poder filtra por título.
-**3** Yo como usuario quiero poder filtrar por director.
-**4** Yo como usuario quiero poder filtrar por actor.
-**5** Yo como usuario me gustaría que el portal muestre el trailer de la película.
+Con base en los testeos, destacamos las principales historias de usuario:
+
+**1.** Yo como usuario quiero visualizar las mejores películas de ciencia ficción, con su poster y su sinopsis.
+
+**2.** Yo como usuario quiero poder filtra por título.
+
+**3.** Yo como usuario quiero poder filtrar por director.
+
+**4.** Yo como usuario quiero poder filtrar por actor.
+
+**5.** Yo como usuario me gustaría que el portal muestre el trailer de la película.
 
 ## Planificación de las pruebas testeo 2
 **Guión:** 
