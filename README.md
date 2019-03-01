@@ -19,31 +19,31 @@ Se realizará un guión donde se especifíque al usuario las tareas que debe rea
 **Guión:** 
 -Hola, soy una estudiante de Laboratoria y me gustaría que me ayudaras con una prueba de usabilidad. El objetivo de esta prueba es evaluar la calidad de uso del sitio web, nunca la evaluación del participante. Si cometes algún fallo no será tu culpa sino del diseño del sitio. Estamos creando un portal de recomendaciones de películas de ciencia ficción. 
 
-**Tareas del Usuario:**
+**Tareas para el Usuario:**
 ¿Que genero de pelìcualas te gusta?
 ¿De qué manera te gustaría hacer tu búsqueda de las películas?
 Además de mostrar las películas, ¿Que más te gustaría que mostrará esta página como un plus?
 
 ## Historias de Usuario entrevista Testeo 1
-#### Historia 1 
-Nombre: Daniela Sierra
-Edad: 28 años
-Comentarios: A mi me gustarìa que además de las películas se mostrará por subgéneros, tipo: postpunk, biopunk, postapocalípticas, Robòtica. Que la búsqueda sea por país
+![LFP_4]
 
-#### Historia 2
-Nombre:Karen Amicone
-Edad: 26 años
-Comentarios:Como usuario me gustarìa que se muestren todas las peliculas con su sinopsis. Que tenga una recomendación tipo las mejores películas por subgénero, director, tema etc.
+## Planificación de las pruebas testeo 2
+**Guión:** 
+-Hola, soy una estudiante de Laboratoria y me gustaría que me ayudaras con una prueba de usabilidad. El objetivo de esta prueba es evaluar la calidad de uso del sitio web, nunca la evaluación del participante. Si cometes algún fallo no será tu culpa sino del diseño del sitio. Estamos creando un portal de recomendaciones de películas de ciencia ficción y esté es un prototipo para interectuar con este sitio.
 
-#### Historia 3 
-Nombre: Mitzy Olvera
-Edad: 30 años
-Comentarios: Me gustaría que las películas se mostrarán por subgéneros. Mostrar contenido extra. Tipo de búsqueda por: Nombre y director.
+**Preguntas para el Usuario:**
+¿Te parece fácil la interacción con la página?
+¿Te gusta como se muestra la información y que le cambiarías o le agragarías?
+¿Te gusta la interfaz?
 
-#### Historia 4
-Nombre: Viviana Navarro
-Edad: 28 años
-Comentarios: Me gustaría que las películas se muestran con su poster, una pequeña sinopsis, y un trailer. Tipo de búsqueda: título y actor.
+**Tareas para el Usuario:**
+## Historias de Usuario entrevista Testeo 1
+![LFP_5]
+
+
+
+
+
 
 ## Prototipos 
 
